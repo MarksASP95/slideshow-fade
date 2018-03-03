@@ -1,0 +1,25 @@
+.img-container{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid red;
+}
+
+#left{
+	position: absolute;
+	left:0;
+	border-radius: 50%;
+	top:40%;
+	opacity: .5;
+}
+
+#right{
+	position: absolute;
+	right:0;
+	border-radius: 50%;
+	top:40%;
+	opacity: .5;
+}
